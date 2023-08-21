@@ -1,0 +1,31 @@
+/* estilos.css */
+
+body {
+    background-color: brown;
+    font-family:"Verdana";
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+h1{
+    font-family: 'Segoe UI';
+    text-align: center;
+}
+
+h2{
+    font-family: 'Gill Sans';
+    text-align: center;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+
