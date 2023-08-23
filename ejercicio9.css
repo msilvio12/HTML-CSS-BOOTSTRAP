@@ -1,0 +1,79 @@
+h1 {
+  color: red;
+}
+
+strong {
+  color: red;
+}
+
+.destacado {
+  color: darkgoldenrod;
+}
+
+h2 {
+  color: blue;
+}
+
+/* Cambiar color azul a los enlaces dentro del elemento <p> */
+p>a {
+  color: blue;
+}
+
+/* Cambiar color rojo al primer <em> dentro de un <a> dentro del elemento <p> */
+p>a>em:first-child {
+  color: red;
+}
+
+.especial {
+  color: blueviolet;
+}
+
+td>em {
+  color: blueviolet;
+}
+
+tfoot {
+  color: rgb(255, 0, 0);
+}
+
+th.especial {
+  color: rgb(0, 255, 0);
+}
+
+th {
+  color: rgb(223, 5, 5);
+}
+
+td {
+  color: green;
+}
+
+td>em {
+  color: green;
+}
+
+td>strong {
+  color: orange;
+}
+
+table,
+td,
+tr,
+th {
+  border: 1px solid rgb(12, 10, 10);
+  border-collapse: collapse;
+  padding: 3px;
+}
+
+#adicional p{
+  color: goldenrod;
+}
+
+#especial{
+  color: purple;
+}
+
+p a:last-child {
+  color: green; /* Cambiar el último enlace a verde */
+}
+
